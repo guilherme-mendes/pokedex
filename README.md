@@ -2,7 +2,7 @@
 
 ## Introdução
 
-No mundo de Pokemon, existem criaturas chamadas Pokemons. Estas criaturas possuem
+No mundo de Pokémon, existem criaturas chamadas Pokémons. Estas criaturas possuem
 diversas caracterísiticas e atributos.
 
 Os Pokemons se organizam em tipos, e podem ser capturados por treinadores.
@@ -17,36 +17,45 @@ e cadastrar os seus Pokemons. E possam ver as características destes Pokemons.
 
 ## Critérios de Aceitação
 
+* Processar os dados de todos os Pokemons;
+
+* Listar atributos e habilidades do Pokemon após o nome deste ser informado;
+
+* Listar os nomes de todos os Pokemons de um determinado tipo;
+
+* Permitir o cadastro de um treinador;
+
+* Permitir a associação de um Pokemon a um treinador. E a visualização dos Pokemons que um treinador possui;
+
+
 ### Critérios de funcionalidades da Pokedex
 
-* Processar os dados de todos os Pokemons
+* Implementar funcionalidades da Pokedex;
+    * Pesquisar Pokemons pelo nome;
+    * Pesquisar Pokemons pelo tipo;
+    * Cadastrar um treinador;
+    * Selecionar um treinador e atribuir os Pokemons que este possui;
+    * Visualizar os Pokemons de um treinador.
 
-* Listar atributos e habilidades do Pokemon após o nome deste ser informado
-
-* Listar os nomes de todos os Pokemons de um determinado tipo
-
-* Implementar funcionalidades da Pokedex:
-    * Pesquisar Pokemons pelo nome
-    * Pesquisar Pokemons pelo tipo
-    * Cadastrar um treinador
-    * Cadastrar o Pokemon de um treinador
-
-### Critérios de classes
+### Critérios de implementação
 
 * Implementar classes para os tipos:
-    * Água
-    * Fogo
-    * Elétrico
-    * Planta
-    * Psíquico
-    * Normal
-    * Lutador
-    * Fantasma
-    * Pedra
-    * Inseto
-    * Gelo
-    * Veneno
-    * Fada
+    * Água;
+    * Fogo;
+    * Elétrico;
+    * Planta;
+    * Psíquico;
+    * Normal;
+    * Lutador;
+    * Fantasma;
+    * Pedra;
+    * Inseto;
+    * Gelo;
+    * Veneno;
+    * Fada.
 
-* Para cada classe de tipo implementar dois métodos de habilidades que são
-  características daquele tipo.
+* Para cada classe de tipo, implementar dois métodos de habilidades que são
+  característicos daquele tipo.
+
+* Implementar interface gráfica para a Pokedex, utilizando Java Swing. Todas as
+funcionalidades devem poder ser realizadas através da interface.
