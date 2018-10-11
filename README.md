@@ -40,19 +40,22 @@ e cadastrar os seus Pokemons. E possam ver as características destes Pokemons.
 ### Critérios de implementação
 
 * Implementar classes para os tipos:
+    * Aço;    
     * Água;
-    * Fogo;
+    * Dragão;
     * Elétrico;
+    * Escuridão;
+    * Fada;
+    * Fantasma;
+    * Fogo;
+    * Gelo;
+    * Inseto;
+    * Lutador;
+    * Normal;
+    * Pedra;
     * Planta;
     * Psíquico;
-    * Normal;
-    * Lutador;
-    * Fantasma;
-    * Pedra;
-    * Inseto;
-    * Gelo;
-    * Veneno;
-    * Fada.
+    * Veneno.
 
 * Para cada classe de tipo, implementar dois métodos de habilidades que são
   característicos daquele tipo.
