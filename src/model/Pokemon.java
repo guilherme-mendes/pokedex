@@ -1,8 +1,10 @@
 package model;
 
 public class Pokemon {
-  private String name;
-  private String url;
+    String name;
+    private String url;
+
+  public Pokemon() {}
   
   public String getName(){
     return name;

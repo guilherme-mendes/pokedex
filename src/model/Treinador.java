@@ -1,9 +1,8 @@
 package model;
 
 public class Treinador {
-    private String nome;
-    private String usuario;
-    private String senha;
+    
+    public String nome, usuario, senha;
     private int genero;
 
     public String getNome() {
@@ -37,6 +36,5 @@ public class Treinador {
     public void setGenero(int genero) {
         this.genero = genero;
     }
-    
     
 }
