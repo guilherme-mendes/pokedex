@@ -1,5 +1,4 @@
 package model;
-
 /**
  *
  * @author guiz
@@ -7,7 +6,7 @@ package model;
 public class Pokedex {
     
     public static void main(String[] args) {
-       new janelas.JanelaPrincipal();
+       new view.JanelaPrincipal();
     }
     
 }

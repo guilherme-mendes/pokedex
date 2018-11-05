@@ -90,10 +90,10 @@ public class InOut {
      * @return 
      * Retorna um ArrayList com os treinadores.
      */
-    public static ArrayList<registros.Treinador> importarDadosTreinadores() {
-        File arquivo = new File(new File("").getAbsolutePath() + janelas.JanelaPrincipal.ARQUIVO_TREINADORES);
+    public static ArrayList<model.Treinador> importarDadosTreinadores() {
+        File arquivo = new File(new File("").getAbsolutePath() + view.JanelaPrincipal.ARQUIVO_TREINADORES);
         String conteudo = null;
-        ArrayList<registros.Treinador> retorno = new ArrayList();
+        ArrayList<model.Treinador> retorno = new ArrayList();
 
         int id = 0;
         String nome = null;
@@ -148,7 +148,7 @@ public class InOut {
 
             regiao = dados[2];
 
-            retorno.add(new registros.Treinador(id, nome, regiao));
+            retorno.add(new model.Treinador(id, nome, regiao));
         }
         return retorno;
     }
@@ -161,10 +161,10 @@ public class InOut {
      * @return 
      * Retorna um ArrayList com os pokemons.
      */
-    public static ArrayList<registros.Pokemon> importarDadosPokemon(String nomeArquivo) {
+    public static ArrayList<model.Pokemon> importarDadosPokemon(String nomeArquivo) {
         File arquivo = new File(new File("").getAbsolutePath() + nomeArquivo);
         String conteudo = null;
-        ArrayList<registros.Pokemon> retorno = new ArrayList();
+        ArrayList<model.Pokemon> retorno = new ArrayList();
 
         int id = 0;
         String name = null;
@@ -298,7 +298,7 @@ public class InOut {
            legendary = converter(dados[12]);
             
             
-            retorno.add(new registros.Pokemon(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
+            retorno.add(new model.Pokemon(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
         }
         return retorno;
     }
@@ -311,10 +311,10 @@ public class InOut {
      * @return 
      * Retorna um ArrayList com os pokemons.
      */
-    public static ArrayList<registros.PokemonDeTreinador> importarDadosPokemonDeTreinador(String nomeArquivo) {
+    public static ArrayList<model.PokemonDeTreinador> importarDadosPokemonDeTreinador(String nomeArquivo) {
         File arquivo = new File(new File("").getAbsolutePath() + nomeArquivo);
         String conteudo = null;
-        ArrayList<registros.PokemonDeTreinador> retorno = new ArrayList();
+        ArrayList<model.PokemonDeTreinador> retorno = new ArrayList();
 
         int id = 0;
         int idTreinador = 0;
@@ -450,7 +450,7 @@ public class InOut {
            legendary = converter(dados[13]);
             
             
-            retorno.add(new registros.PokemonDeTreinador(id,idTreinador, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
+            retorno.add(new model.PokemonDeTreinador(id,idTreinador, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
         }
         return retorno;
     }
