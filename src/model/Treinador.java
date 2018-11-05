@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Classe que armazena os dados os treinadores.
+ */
 public class Treinador {
     private int id;
     private String nome;

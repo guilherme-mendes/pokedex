@@ -1,5 +1,9 @@
 package model;
 
+/**
+ * Classe filho que é um pokemon, mais o Id do treinador a quem ele pertence.
+ * @author guiz
+ */
 public class PokemonDeTreinador extends Pokemon {
     private int idTreinador;
 

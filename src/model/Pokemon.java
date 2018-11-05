@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Classe mãe que armazena os dados os pokemons gerais.
+ */
 public class Pokemon {
     private int id;
     private String name;
