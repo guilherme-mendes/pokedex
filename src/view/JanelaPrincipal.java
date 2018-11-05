@@ -2,6 +2,7 @@ package view;
 
 
 import java.util.ArrayList;
+import javax.swing.ImageIcon;
 import javax.swing.table.TableColumn;
 
 /**
@@ -19,15 +20,18 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     
     public static ArrayList<model.Pokemon> pokemons = new ArrayList();
     private ArrayList<model.Pokemon> pokemonsFiltrados = new ArrayList();
+   
      
     public JanelaPrincipal() {
         initComponents();
+        setIconImage(new ImageIcon(getClass().getResource("/icones/dex.png")).getImage());
         setLocationRelativeTo(null);
         
-         new ThreadPokemon().start();
+        new ThreadPokemon().start();
         
         setExtendedState(MAXIMIZED_BOTH);
         setVisible(true);
+    
     }
     
     /**
@@ -127,6 +131,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             atualizarTabelaPokemon(pokemons);
         }
     }
+
     
     
     @SuppressWarnings("unchecked")
