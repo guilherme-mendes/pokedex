@@ -179,6 +179,8 @@ public class InOut {
         int speed = 0;
         int generation = 0;
         boolean legendary = false;
+        int height = 0;
+        int weight = 0;
 
         if (arquivo == null) {
             return null;
@@ -192,7 +194,7 @@ public class InOut {
         }
         
         String[] linhas = conteudo.split("\n");
-        String[] dados = new String[14];
+        String[] dados = new String[16];
 
         for (int i = 1; i < linhas.length; i++) {
             id = 0;
@@ -208,6 +210,8 @@ public class InOut {
             speed = 0;
             generation = 0;
             legendary = false;
+            height = 0;
+            weight = 0;
 
             int index = 0;
             int indexD = 0;
@@ -238,10 +242,8 @@ public class InOut {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            
            
             name = dados[1];
-            
 
             type1 = dados[2];
 
@@ -295,10 +297,22 @@ public class InOut {
                 e.printStackTrace();
             }
             
-           legendary = converter(dados[12]);
+            legendary = converter(dados[12]);
+           
+            try {
+                height = Integer.valueOf(dados[13]);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+           
+            try {
+                weight = Integer.valueOf(dados[14]);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             
             
-            retorno.add(new model.Pokemon(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
+            retorno.add(new model.Pokemon(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary, height, weight));
         }
         return retorno;
     }
@@ -330,6 +344,8 @@ public class InOut {
         int speed = 0;
         int generation = 0;
         boolean legendary = false;
+        int height = 0;
+        int weight = 0;
 
         if (arquivo == null) {
             return null;
@@ -337,7 +353,7 @@ public class InOut {
 
         conteudo = lerArquivo(arquivo);
         String[] linhas = conteudo.split("\n");
-        String[] dados = new String[15];
+        String[] dados = new String[17];
 
         for (int i = 0; i < linhas.length; i++) {
             id = 0;
@@ -354,6 +370,8 @@ public class InOut {
             speed = 0;
             generation = 0;
             legendary = false;
+            height = 0;
+            weight = 0;
 
             int index = 0;
             int indexD = 0;
@@ -448,9 +466,21 @@ public class InOut {
             }
             
            legendary = converter(dados[13]);
+           
+           try {
+                generation = Integer.valueOf(dados[14]);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+           
+           try {
+                generation = Integer.valueOf(dados[15]);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             
             
-            retorno.add(new model.PokemonDeTreinador(id,idTreinador, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary));
+            retorno.add(new model.PokemonDeTreinador(id,idTreinador, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary, height, weight));
         }
         return retorno;
     }

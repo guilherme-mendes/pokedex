@@ -15,6 +15,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     //Diretórios dos dados.
     public static final String ARQUIVO_TREINADORES = "/data/treinadores.txt";
     public static final String ARQUIVO_POKEMONS = "/data/csv_files/POKEMONS_DATA_1.csv";
+    public static final String ARQUIVO_POKEMONS2 = "/data/csv_files/POKEMONS_DATA_2.csv";
     public static final String ARQUIVO_POKEMONS_TREINADORES = "/data/pokemons_de_treinadores.txt";
     public static final String ARQUIVO_IMGS = "/data/images";
     
@@ -182,7 +183,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTablePokemons);
 
-        jButton5.setBackground(new java.awt.Color(153, 255, 255));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/lupa.png"))); // NOI18N
         jButton5.setText("PESQUISAR");
         jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -195,7 +195,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         jComboBoxTipo.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jComboBoxTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TODOS", "Grass", "Poison", "Fire", "Water", "Bug", "Normal", "Electric", "Ground", "Fighting", "Dark", "Rock", "Psychic", "Dragon", "Fairy", "Ice", "Ghost", "Steel" }));
 
-        jButton6.setBackground(new java.awt.Color(153, 255, 255));
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/filtro.png"))); // NOI18N
         jButton6.setText("FILTRAR");
         jButton6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -205,7 +204,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(254, 61, 59));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/add.png"))); // NOI18N
         jButton3.setText("ADICIONAR TREINADOR");
         jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -255,7 +253,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton6)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 453, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 571, Short.MAX_VALUE))
                 .addContainerGap())
         );
 

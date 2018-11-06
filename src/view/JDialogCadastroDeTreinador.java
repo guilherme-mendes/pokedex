@@ -89,7 +89,6 @@ public class JDialogCadastroDeTreinador extends javax.swing.JDialog {
 
         jLabel3.setText("REGIÃO:");
 
-        jButton1.setBackground(new java.awt.Color(153, 255, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/x_1.png"))); // NOI18N
         jButton1.setText("CANCELAR");
@@ -100,7 +99,6 @@ public class JDialogCadastroDeTreinador extends javax.swing.JDialog {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(153, 255, 255));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/salvar.png"))); // NOI18N
         jButton2.setText("SALVAR");

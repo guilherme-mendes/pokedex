@@ -17,8 +17,10 @@ public class Pokemon {
     private int speed;
     private int generation;
     private boolean legendary;
+    private int height;
+    private int weight;
 
-    public Pokemon(int id, String name, String type1, String type2, int total, int hp, int attack, int defense,int atk, int spDef, int speed, int generation, boolean legendary) {
+    public Pokemon(int id, String name, String type1, String type2, int total, int hp, int attack, int defense,int atk, int spDef, int speed, int generation, boolean legendary, int height,int weight) {
         this.id = id;
         this.name = name;
         this.type1 = type1;
@@ -32,6 +34,8 @@ public class Pokemon {
         this.speed = speed;
         this.generation = generation;
         this.legendary = legendary;
+        this.height = height;
+        this.weight = weight;
     }
 
     public int getId() {
@@ -84,5 +88,13 @@ public class Pokemon {
 
     public boolean isLegendary() {
         return legendary;
+    }
+    
+    public int getHeight() {
+        return height;
+    }
+    
+    public int getWeight() {
+        return weight;
     }
 }

@@ -9,8 +9,8 @@ package model;
 public class PokemonDeTreinador extends Pokemon {
     private int idTreinador;
 
-    public PokemonDeTreinador(int id, int idTreinador, String name, String type1, String type2, int total, int hp, int attack, int defense, int atk, int spDef, int speed, int generation, boolean legendary) {
-        super(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary);
+    public PokemonDeTreinador(int id, int idTreinador, String name, String type1, String type2, int total, int hp, int attack, int defense, int atk, int spDef, int speed, int generation, boolean legendary, int height, int weight) {
+        super(id, name, type1, type2, total, hp, attack, defense,atk, spDef, speed, generation, legendary, height, weight);
         this.idTreinador = idTreinador;
     }
 

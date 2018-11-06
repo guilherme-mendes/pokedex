@@ -260,7 +260,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jButton4.setBackground(new java.awt.Color(153, 255, 255));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/poke.png"))); // NOI18N
         jButton4.setText("VINCULAR POKÉMON");
         jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -270,7 +269,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(153, 255, 255));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/lupa.png"))); // NOI18N
         jButton5.setText("PESQUISAR");
         jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -283,7 +281,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
         jComboBoxTipo.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jComboBoxTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TODOS", "Grass", "Poison", "Fire", "Water", "Bug", "Normal", "Electric", "Ground", "Fighting", "Dark", "Rock", "Psychic", "Dragon", "Fairy", "Ice", "Ghost", "Steel" }));
 
-        jButton6.setBackground(new java.awt.Color(153, 255, 255));
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/filtro.png"))); // NOI18N
         jButton6.setText("FILTRAR");
         jButton6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -316,7 +313,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("TREINADORES");
 
-        jButton2.setBackground(new java.awt.Color(153, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/lupa.png"))); // NOI18N
         jButton2.setText("PESQUISAR");
         jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -349,7 +345,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
         });
         jScrollPane2.setViewportView(jTablePokemons);
 
-        jButton3.setBackground(new java.awt.Color(153, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/add.png"))); // NOI18N
         jButton3.setText("ADICIONAR TREINADOR");
         jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
