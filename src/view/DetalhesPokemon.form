@@ -212,7 +212,7 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabelPokeImage" pref="146" max="32767" attributes="0"/>
+              <Component id="jLabelPokeImage" pref="143" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -293,7 +293,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel14">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ATK:"/>
+        <Property name="text" type="java.lang.String" value="S. ATK:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelSpDefesa">
@@ -308,7 +308,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel15">
       <Properties>
-        <Property name="text" type="java.lang.String" value="SP. DEFES:"/>
+        <Property name="text" type="java.lang.String" value="S. DEF:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JProgressBar" name="jProgressBarSpDefe">
@@ -344,7 +344,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel17">
       <Properties>
-        <Property name="text" type="java.lang.String" value="GERATION:"/>
+        <Property name="text" type="java.lang.String" value="GENER:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel18">
@@ -354,8 +354,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Ubuntu" size="18" style="1"/>
+        </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="IMG:"/>
+        <Property name="text" type="java.lang.String" value="IMAGE"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabeTotal">
@@ -407,7 +410,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ATAQUE:"/>
+        <Property name="text" type="java.lang.String" value="ATK:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelAtaque">
@@ -430,7 +433,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel12">
       <Properties>
-        <Property name="text" type="java.lang.String" value="DEFESA:"/>
+        <Property name="text" type="java.lang.String" value="DEF:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabeDefesa">

@@ -121,12 +121,12 @@ public class DetalhesPokemon extends javax.swing.JDialog {
         jProgressBarAtk.setForeground(new java.awt.Color(255, 102, 102));
         jProgressBarAtk.setMaximum(200);
 
-        jLabel14.setText("ATK:");
+        jLabel14.setText("S. ATK:");
 
         jLabelSpDefesa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelSpDefesa.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel15.setText("SP. DEFES:");
+        jLabel15.setText("S. DEF:");
 
         jProgressBarSpDefe.setForeground(new java.awt.Color(204, 0, 204));
         jProgressBarSpDefe.setMaximum(200);
@@ -139,12 +139,13 @@ public class DetalhesPokemon extends javax.swing.JDialog {
         jLabelSpeed.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelSpeed.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel17.setText("GERATION:");
+        jLabel17.setText("GENER:");
 
         jLabel18.setText("TOTAL:");
 
+        jLabel6.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("IMG:");
+        jLabel6.setText("IMAGE");
 
         jLabeTotal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabeTotal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -162,7 +163,7 @@ public class DetalhesPokemon extends javax.swing.JDialog {
         jProgressHp.setForeground(new java.awt.Color(255, 0, 0));
         jProgressHp.setMaximum(200);
 
-        jLabel11.setText("ATAQUE:");
+        jLabel11.setText("ATK:");
 
         jLabelAtaque.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelAtaque.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -170,7 +171,7 @@ public class DetalhesPokemon extends javax.swing.JDialog {
         jProgressBarAtaque.setForeground(new java.awt.Color(255, 51, 102));
         jProgressBarAtaque.setMaximum(200);
 
-        jLabel12.setText("DEFESA:");
+        jLabel12.setText("DEF:");
 
         jLabeDefesa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabeDefesa.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -330,7 +331,7 @@ public class DetalhesPokemon extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel6)
                 .addGap(18, 18, 18)
-                .addComponent(jLabelPokeImage, javax.swing.GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE)
+                .addComponent(jLabelPokeImage, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

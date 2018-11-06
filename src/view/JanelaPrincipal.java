@@ -29,7 +29,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         
         new ThreadPokemon().start();
         
-        setExtendedState(MAXIMIZED_BOTH);
+        // setExtendedState(MAXIMIZED_BOTH);
         setVisible(true);
     
     }
@@ -205,7 +205,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(153, 255, 255));
+        jButton3.setBackground(new java.awt.Color(254, 61, 59));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/add.png"))); // NOI18N
         jButton3.setText("ADICIONAR TREINADOR");
         jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
