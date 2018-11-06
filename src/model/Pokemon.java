@@ -20,7 +20,9 @@ public class Pokemon {
     private int height;
     private int weight;
 
-    public Pokemon(int id, String name, String type1, String type2, int total, int hp, int attack, int defense,int atk, int spDef, int speed, int generation, boolean legendary, int height,int weight) {
+    public Pokemon(int id, String name, String type1, String type2, int total, int hp, 
+                   int attack, int defense,int atk, int spDef, int speed, int generation, 
+                   boolean legendary, int height,int weight) {
         this.id = id;
         this.name = name;
         this.type1 = type1;
