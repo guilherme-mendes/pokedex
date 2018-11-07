@@ -5,78 +5,40 @@
  */
 package model;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
-/**
- *
- * @author guiz
- */
-public class TreinadorTest {
-    
-    public TreinadorTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
+public class TreinadorTest
+{
+	@Test
+	public void TreinadorTest()
+	{
+		Treinador treinador = new Treinador();
+		
+                assertEquals(treinador.getId(), 1);
+		assertEquals(treinador.getNome(), "James");
+		assertEquals(treinador.getRegiao(), "Unova");
+		
+	}
+        @Test
+	public void testGetId(){
+		int id = 1;
+		Treinador treinador = new Treinador(id, "James", "Unova");
+		assertEquals(treinador.getId(), id);
+	}
+        
+	@Test
+	public void testGetNome(){
+		String nome = "James";
+		Treinador treinador = new Treinador(1, nome, "Unova");
+		assertEquals(treinador.getNome(), nome);
+	}
 
-    /**
-     * Test of getId method, of class Treinador.
-     */
-    @Test
-    public void testGetId() {
-        System.out.println("getId");
-        Treinador instance = null;
-        int expResult = 0;
-        int result = instance.getId();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getNome method, of class Treinador.
-     */
-    @Test
-    public void testGetNome() {
-        System.out.println("getNome");
-        Treinador instance = null;
-        String expResult = "";
-        String result = instance.getNome();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getRegiao method, of class Treinador.
-     */
-    @Test
-    public void testGetRegiao() {
-        System.out.println("getRegiao");
-        Treinador instance = null;
-        String expResult = "";
-        String result = instance.getRegiao();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
+	@Test
+	public void testGetRegiao(){
+		String regiao = "Unova";
+		Treinador treinador = new Treinador(1, "James", regiao);
+		assertEquals(treinador.getRegiao(), regiao);
+	}
 }
+
