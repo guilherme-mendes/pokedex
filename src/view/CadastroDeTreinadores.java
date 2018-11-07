@@ -176,7 +176,7 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
      * @param conteudoPesquisa
      * Uma String que sera comparada com o nome.
      */
-    private boolean pesquisarPokemons(String conteudoPesquisa) {
+    private void pesquisarPokemons(String conteudoPesquisa) {
         ArrayList<model.PokemonDeTreinador> retorno = new ArrayList();
 
         for (int i = 0; i < this.pokemonsInTabela.size(); i++) {
@@ -193,7 +193,6 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
         this.pokemonsFiltrados = retorno;
         atualizarTabelaPokemon(retorno);
 
-        return true;
     }
     
     /**

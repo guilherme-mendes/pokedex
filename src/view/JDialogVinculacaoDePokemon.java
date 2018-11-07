@@ -87,7 +87,7 @@ public class JDialogVinculacaoDePokemon extends javax.swing.JDialog {
      */
     private boolean salvar() {
         for(int i = 0; i < this.listaDePokemons.size(); i++){
-            model.InOut.escreverArquivo(this.listaDePokemons.get(i).getId() + "," + treinador.getId() + "," + this.listaDePokemons.get(i).getName() + "," + this.listaDePokemons.get(i).getType1() + "," + this.listaDePokemons.get(i).getType2() + "," + this.listaDePokemons.get(i).getTotal() + "," + this.listaDePokemons.get(i).getHp() + "," + this.listaDePokemons.get(i).getAttack() + "," + this.listaDePokemons.get(i).getDefense() + "," + this.listaDePokemons.get(i).getAtk()+ "," + this.listaDePokemons.get(i).getSpDef()+ "," + this.listaDePokemons.get(i).getSpeed()+ "," + this.listaDePokemons.get(i).getGeneration()+ "," + this.listaDePokemons.get(i).isLegendary(),JanelaPrincipal.ARQUIVO_POKEMONS_TREINADORES);
+            model.InOut.escreverArquivo(this.listaDePokemons.get(i).getId() + "," + treinador.getId() + "," + this.listaDePokemons.get(i).getName() + "," + this.listaDePokemons.get(i).getType1() + "," + this.listaDePokemons.get(i).getType2() + "," + this.listaDePokemons.get(i).getTotal() + "," + this.listaDePokemons.get(i).getHp() + "," + this.listaDePokemons.get(i).getAttack() + "," + this.listaDePokemons.get(i).getDefense() + "," + this.listaDePokemons.get(i).getAtk()+ "," + this.listaDePokemons.get(i).getSpDef()+ "," + this.listaDePokemons.get(i).getSpeed()+ "," + this.listaDePokemons.get(i).getGeneration()+ "," + this.listaDePokemons.get(i).isLegendary() + "," + this.listaDePokemons.get(i).getHeight() + "," + this.listaDePokemons.get(i).getWeight(),JanelaPrincipal.ARQUIVO_POKEMONS_TREINADORES);
         }
 
         retorno = true;
