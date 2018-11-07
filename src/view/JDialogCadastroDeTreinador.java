@@ -38,7 +38,7 @@ public class JDialogCadastroDeTreinador extends javax.swing.JDialog {
         nome = jTextFieldNome.getText();
 
         if (nome.length() < 1) {
-            JOptionPane.showMessageDialog(this, "DIGITE UM NOME", "", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "DIGITE UM NOME!", "", JOptionPane.ERROR_MESSAGE);
             jTextFieldNome.requestFocus();
             return false;
         }
@@ -46,7 +46,7 @@ public class JDialogCadastroDeTreinador extends javax.swing.JDialog {
         região = jTextFieldRegiao.getText();
 
         if (região.length() < 1) {
-            JOptionPane.showMessageDialog(this, "DIGITE UMA REGIÃO", "", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "DIGITE UMA REGIÃO!", "", JOptionPane.ERROR_MESSAGE);
             jTextFieldRegiao.requestFocus();
             return false;
         }
@@ -57,6 +57,7 @@ public class JDialogCadastroDeTreinador extends javax.swing.JDialog {
         reiniciar();
         retorno = true;
         JOptionPane.showMessageDialog(this, "SUCESSO!", "", JOptionPane.INFORMATION_MESSAGE);
+        dispose();
         return true;
     }
     

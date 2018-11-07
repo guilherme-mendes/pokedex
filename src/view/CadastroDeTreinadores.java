@@ -112,7 +112,7 @@ public class CadastroDeTreinadores extends javax.swing.JDialog {
                 atualizarDados();
             }
         } else {
-            JOptionPane.showMessageDialog(null, "SELECIONE UM TREINADOR", "ERRO!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "SELECIONE UM TREINADOR!", "ERRO!", JOptionPane.ERROR_MESSAGE);
         }
     }
     
