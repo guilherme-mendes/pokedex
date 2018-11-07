@@ -8,10 +8,15 @@ public class Treinador {
     private String nome;
     private String regiao;
 
-    public Treinador(int id, String nome, String regiao) {
+    Treinador(int id, String nome, String regiao) {
         this.id = id;
         this.nome = nome;
         this.regiao = regiao;
+    }
+    Treinador() {   
+	this.id = 1;
+        this.nome = "James";
+	this.regiao = "Unova";
     }
 
     public int getId() {

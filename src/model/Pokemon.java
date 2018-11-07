@@ -17,12 +17,12 @@ public class Pokemon {
     private int speed;
     private int generation;
     private boolean legendary;
-    private int height;
-    private int weight;
+    private float height;
+    private float weight;
 
     public Pokemon(int id, String name, String type1, String type2, int total, int hp, 
                    int attack, int defense,int atk, int spDef, int speed, int generation, 
-                   boolean legendary, int height,int weight) {
+                   boolean legendary, float height,float weight) {
         this.id = id;
         this.name = name;
         this.type1 = type1;
@@ -92,11 +92,11 @@ public class Pokemon {
         return legendary;
     }
     
-    public int getHeight() {
+    public float getHeight() {
         return height;
     }
     
-    public int getWeight() {
+    public float getWeight() {
         return weight;
     }
 }

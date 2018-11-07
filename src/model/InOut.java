@@ -14,6 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
+import static javax.swing.UIManager.get;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
@@ -153,7 +154,6 @@ public class InOut {
         return retorno;
     }
     
-    
     /**
      * Importa os dados dos pokemons gerais.
      * @param nomeArquivo
@@ -161,6 +161,7 @@ public class InOut {
      * @return 
      * Retorna um ArrayList com os pokemons.
      */
+
     public static ArrayList<model.Pokemon> importarDadosPokemon(String nomeArquivo) {
         File arquivo = new File(new File("").getAbsolutePath() + nomeArquivo);
         String conteudo = null;
@@ -179,8 +180,8 @@ public class InOut {
         int speed = 0;
         int generation = 0;
         boolean legendary = false;
-        int height = 0;
-        int weight = 0;
+        float height = 0;
+        float weight = 0;
 
         if (arquivo == null) {
             return null;
@@ -344,8 +345,8 @@ public class InOut {
         int speed = 0;
         int generation = 0;
         boolean legendary = false;
-        int height = 0;
-        int weight = 0;
+        float height = 0;
+        float weight = 0;
 
         if (arquivo == null) {
             return null;
@@ -468,13 +469,13 @@ public class InOut {
            legendary = converter(dados[13]);
            
            try {
-                generation = Integer.valueOf(dados[14]);
+                height = Integer.valueOf(dados[14]);
             } catch (Exception e) {
                 e.printStackTrace();
             }
            
            try {
-                generation = Integer.valueOf(dados[15]);
+                weight = Integer.valueOf(dados[15]);
             } catch (Exception e) {
                 e.printStackTrace();
             }
