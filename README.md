@@ -14,7 +14,7 @@ java -jar ep2.jar
 
 # Funcionalidades do projeto
 
-Esse programa foi desenvolvido em Java, implementando a interface gráfica da Pokédex utilizando Java Swing e a IDE Netbeans.
+Esse programa foi desenvolvido em Java, implementando a interface gráfica da Pokédex utilizando Java Swing e a **IDE Netbeans**.
 
 As funcionalidades do projeto são:
 
