@@ -57,7 +57,7 @@ As funcionalidades do projeto são:
 
 ##### Selecione o treinador desejado para visualizar os pokemons vinculados
 
-![Captura_de_tela_de_2018-11-07_12-12-39](/uploads/d24d19f2547208b9017ddc4acea24bb7/Captura_de_tela_de_2018-11-07_12-12-39.png)
+![Captura_de_tela_de_2018-11-07_16-09-44](/uploads/366ba183f24741f4486d816b388978e7/Captura_de_tela_de_2018-11-07_16-09-44.png)
 
 ##### Realize buscar por nomes dos treinadores
 
