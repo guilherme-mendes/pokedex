@@ -31,35 +31,35 @@ As funcionalidades do projeto são:
 
 ##### Lista com todos os Pokemons
 
-![Captura_de_tela_de_2018-11-07_12-04-33](/uploads/d930eaa8fce9453effb79c7a9f02578d/Captura_de_tela_de_2018-11-07_12-04-33.png)
+![captura de tela de 2018-11-07 12-04-33](https://user-images.githubusercontent.com/37874689/48317872-954b2e00-e5df-11e8-84c8-6391e10d769e.png)
 
 ##### Clique duas vezes no Pokémon desejado para detalhes
 
-![Captura_de_tela_de_2018-11-07_12-04-53](/uploads/2a9145c20e264186dfae4b57c1577f55/Captura_de_tela_de_2018-11-07_12-04-53.png)
+![captura de tela de 2018-11-07 12-04-53](https://user-images.githubusercontent.com/37874689/48317848-53ba8300-e5df-11e8-8df3-4793ac39ba80.png)
 
 ##### Faça buscas por nome e por tipos
 
-![Captura_de_tela_de_2018-11-07_12-05-18](/uploads/5a045ea3ea8a65501a82e7334b49d2ed/Captura_de_tela_de_2018-11-07_12-05-18.png)
+![captura de tela de 2018-11-07 12-05-18](https://user-images.githubusercontent.com/37874689/48317857-6765e980-e5df-11e8-860c-3407d675ec43.png)
 
-![Captura_de_tela_de_2018-11-07_12-05-48](/uploads/9506ced5b9daf4fa7a9d53b259fd8670/Captura_de_tela_de_2018-11-07_12-05-48.png)
+![captura de tela de 2018-11-07 12-05-48](https://user-images.githubusercontent.com/37874689/48317835-371e4b00-e5df-11e8-9ea5-d0f3edb9084b.png)
 
 ##### Aperte o botão ADICIONAR TREINADOR para abrir a janela de treinadores e realizar o cadastro
 
-![Captura_de_tela_de_2018-11-07_12-07-39](/uploads/fe2d8702f8d214efaa3a30d6c8d6e1b0/Captura_de_tela_de_2018-11-07_12-07-39.png)
+![captura de tela de 2018-11-07 12-07-39](https://user-images.githubusercontent.com/37874689/48317906-d3485200-e5df-11e8-828c-3b044e1c544e.png)
 
 ##### Após o cadastro, aperte o botão VINCULAR POKÉMON para adicionar os pokemons desejados ao treinador 
 
-![Captura_de_tela_de_2018-11-07_12-09-55](/uploads/535567caee9969d83bfa9be3f5c3437d/Captura_de_tela_de_2018-11-07_12-09-55.png)
+![captura de tela de 2018-11-07 12-09-55](https://user-images.githubusercontent.com/37874689/48317917-e529f500-e5df-11e8-8554-7ef56d1c87a1.png)
 
 ##### Clique duas vezes no Pokémon cadastrado ao treinador para ver informações
 
-![Captura_de_tela_de_2018-11-07_12-33-36](/uploads/4b626d37da8f7ed77ed19dcacf8053cb/Captura_de_tela_de_2018-11-07_12-33-36.png)
+![captura de tela de 2018-11-07 12-33-36](https://user-images.githubusercontent.com/37874689/48317927-f4a93e00-e5df-11e8-9c51-4ea4c7e4c134.png)
 
 ##### Selecione o treinador desejado para visualizar os pokemons vinculados
 
-![Captura_de_tela_de_2018-11-07_16-09-44](/uploads/366ba183f24741f4486d816b388978e7/Captura_de_tela_de_2018-11-07_16-09-44.png)
+![captura de tela de 2018-11-07 16-09-44](https://user-images.githubusercontent.com/37874689/48317933-0be82b80-e5e0-11e8-8ddf-9446b67b9d0b.png)
 
 ##### Realize buscar por nomes dos treinadores
 
-![Captura_de_tela_de_2018-11-07_12-13-18](/uploads/2c54e10d6cb9c4ff4ca3a0a567f075df/Captura_de_tela_de_2018-11-07_12-13-18.png)
+![captura de tela de 2018-11-07 12-13-18](https://user-images.githubusercontent.com/37874689/48317938-20c4bf00-e5e0-11e8-95a2-f89af75803ea.png)
 
