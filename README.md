@@ -4,7 +4,7 @@ Acesse a descrição completa deste exercício na [wiki](https://gitlab.com/oofg
 
 # Como usar o projeto
 
-* Abra o terminal no diretório onde está instalado o arquivo **ep2.jar** e execute o projeto com o comando:
+* Abra o terminal no diretório onde está instalado o arquivo **.jar** e execute o projeto com o comando:
 
 ```sh
 java -jar ep2.jar
